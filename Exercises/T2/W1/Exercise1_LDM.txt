@@ -1,0 +1,24 @@
+- students
+    - student_id CHAR(10) PK
+    - name       VARCHAR(50) NN
+    - street     VARCHAR(100) NN
+    - nr         NUMERIC(4) NN
+    - postalcode NUMERIC(4) NN
+    - city       VARCHAR(50) NN
+    - birth_date DATE NN
+- student_classes
+    - student_id CHAR(10) PK FK1
+    - class_id NUMERIC(4) PK FK2
+- classes
+    - class_id NUMERIC(4) PK
+    - building CHAR(2) NN
+    - floor    NUMERIC(1) NN
+    - roomnumber NUMERIC(2) NN
+
+Business Rules:
+- students(nr) must be greater that 0
+- students(postalcode) must be between 1000 and 9999
+- students(birth_date) must be before today
+- classes(building) must be one of the following values: "GR", "PH" or "SW"
+- classes(floor) must be positive and may not be greater than 5
+- classes(roomnumber) must be positive
