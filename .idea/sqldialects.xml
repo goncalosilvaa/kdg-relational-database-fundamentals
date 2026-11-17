@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Exercises/combo_exercises.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Exercises/part_2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Exercises/part_3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Exercises/sql_w4.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Exercises/sql_w5.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Exercises/testExam.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Script/04_01_SCRIPT_JOINS.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Script/05_1_Aggregated_Functions_GROUPBY_HAVING_outerJoin.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Script/_pg_CRE_ENTERPRISE_EN.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Script/_pg_CRE_SA.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Script/_pg_ENTERPRISE_BIG_EN.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Script/_pg_FILL_ENTERPRISE_EN.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Script/_pg_FILL_SA.sql" dialect="PostgreSQL" />
+  </component>
+</project>
